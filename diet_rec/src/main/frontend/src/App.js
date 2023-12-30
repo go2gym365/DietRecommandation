@@ -1,7 +1,7 @@
-import './App.css';
-import {useEffect, useState} from 'react';
+import "./App.css";
+import { useEffect, useState } from "react";
 
-function App(){
+function App() {
   const [message, setMessage] = useState([]);
 
   useEffect(() => {
@@ -14,12 +14,14 @@ function App(){
       });
   }, []);
 
-  return(
+  return (
     <div>
-        <div>시작</div>
-        <ul>
-            {message.map((text, index) => <li key={`${index}-${text}`}>{text}</li>)}
-        </ul>
+      <div>시작</div>
+      <ul>
+        {message.map((text, index) => (
+          <li key={`${index}-${text}`}>{text}</li>
+        ))}
+      </ul>
     </div>
   );
 }
