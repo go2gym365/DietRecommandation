@@ -11,20 +11,20 @@ const Nav = () => {
             <Link to="/">홈</Link>
           </li>
           <li>
-            <Link to="/about">식단 추천</Link>
+            <Link to="/dietRec">식단 추천</Link>
           </li>
           <li>
-            <Link to="/contact">게시판</Link>
+            <Link to="/board">게시판</Link>
           </li>
         </ul>
       </div>
       <div>
         <ul>
           <li>
-            <Link to="/about">로그인</Link>
+            <Link to="/signin">로그인</Link>
           </li>
           <li>
-            <Link to="/contact">회원가입</Link>
+            <Link to="/signup">회원가입</Link>
           </li>
         </ul>
       </div>
