@@ -1,7 +1,9 @@
 const SignIn = () => {
   return (
     <div>
-      <h1>로그인 페이지임</h1>
+      <form method="p">
+
+      </form>
     </div>
   );
 };
